@@ -18,7 +18,7 @@ Welcome to the Weather App for Android! This application provides users with rea
 ### Prerequisites
 
 - Android Studio installed on your development machine.
-- An Android device or emulator with minimum API level XX.
+- An Android device or emulator with minimum API level 8.
 
 ### Installation
 
