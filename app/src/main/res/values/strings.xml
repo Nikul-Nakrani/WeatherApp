@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="str_splash_quotes">Weather Matters,\nWe\'ve Got the Details</string>
+    <string name="str_design_by">DESIGN BY \nNikul Nakrani</string>
+    <string name="str_search_query">Search For A City</string>
+    <string name="str_today">Today</string>
+    <string name="str_celcius">00:00 ℃</string>
+    <string name="str_sunny">Sunny</string>
+    <string name="str_max_00_00">Max : 00:00℃</string>
+    <string name="str_min_00_00">Min : 00:00℃</string>
+    <string name="str_tuesday">Tuesday</string>
+    <string name="str__15_december_2023">15 December 2023</string>
+    <string name="str__00_00">00:00</string>
+    <string name="str_sunset">Sunset</string>
+    <string name="str_sunrise">Sunrise</string>
+    <string name="str__0_00m_s">0.00m/s</string>
+    <string name="str_wind_speed">Wind Speed</string>
+    <string name="str_condition">Condition</string>
+    <string name="str_sea">Sea</string>
+    <string name="str__0000_hpa">0000 hPa</string>
+    <string name="str_humidity">Humidity</string>
+    <string name="str__00">00%</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_splash_screen"
+    tools:context=".ui.SplashActivity">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivCenterImageSplash"
+        android:layout_width="211dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/ic_spalsh_center_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvWeatherDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="67dp"
+        android:fontFamily="@font/merriweathersans_bold"
+        android:text="@string/str_splash_quotes"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@id/ivCenterImageSplash"
+        app:layout_constraintStart_toStartOf="@id/ivCenterImageSplash"
+        app:layout_constraintTop_toBottomOf="@+id/ivCenterImageSplash" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvDesignBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/merriweathersans_medium"
+        android:text="@string/str_design_by"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/ivCenterImageSplash"
+        app:layout_constraintStart_toStartOf="@id/ivCenterImageSplash" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
